@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    color: white;
+}
+.h{
+    margin: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    display: flex;
+}
+.wifi{
+    margin: 70px;
+color: white;
+font-display: ;    
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    margin-right: 0%;
+    margin-left: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center ;
+
+}
+ 
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    margin: 30px;
+    display: none;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#comp{
+    width: 20px;
+    height: 10px;
+    border-radius: 20px;
+}
+.mySlides{
+    width: 1000px;
+    position: relative;
+     margin-left: 300px;
+     margin-top: 20px;
+     height: 400px;
+}
+.w3-button1{
+    position: relative;
+  float: right;
+  margin-right: 283px ;
+ bottom: 200px;
+ width: 30px;
+ height: 40px;
+}
+.w3-button{
+    display:;
+    bottom:193px;
+ width: 30px;
+ height: 40px;
+ position: relative;
+ margin-left: 300px;
+}
+l{display: none;}
+nav ul li a:hover{
+    color: crimson;
+}
+.imbach{
+
+display: flex;
+
+}
+.recpop{
+    margin: 90px;
+}
+.imbach img{
+    width: 500px;
+    margin: 20px;
+}
+.l{
+    border: 2px solid white;
+    width: 1200px;
+  margin-left: 80px;
+}
+.endin{
+    
+    margin: 50px;
+    
+}
+.end{
+    margin: 50px;
+}
+.end h1{
+    margin: 20px;
+}
+
+@media only screen and (max-width:700px){
+    nav ul{
+       
+        background:  linear-gradient( #ec8143, #b86661);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 9;
+        border-radius: 8px;
+       
+      
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+margin-left: 5px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+    }
+
+    #menulist{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+.slider{
+    display:none;
+   
+}
+l{
+    display: block;
+}
+
+
+
+
+}
